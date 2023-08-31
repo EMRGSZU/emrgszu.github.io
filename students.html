@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Welcome to Dr.Yu Zhou's homepage</title><meta name="author" content="Yu Zhou"><link rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/css/fontawesome.all.min.css"><meta name="generator" content="Hexo 6.3.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/"></a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/"> Home</a></li><li class="menus_item"><a class="site-page" href="/projects.html"> Projects</a></li><li class="menus_item"><a class="site-page" href="/students.html"> Members</a></li><li class="memus_item"><a class="site-page" href="/zh-cn/students.html"> 简体中文</a></li></ul></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/assets/avatar.jpg" onerror="this.onerror=null;this.src='/img/profile.png'" alt="avatar"></div><div class="author-discrip"><h3>Yu Zhou</h3><p class="author-bio">Research Institute for Future Media Computing, Shenzhen University.</p></div><div class="author-links"><button class="btn m-social-links">Links</button><ul class="social-links"><li><a class="e-social-link" id="_email" href="" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span><script>document.getElementById('_email').href = atob('bWFpbHRvOnl1Lnpob3VAc3p1LmVkdS5jbg==')</script></a></li><li><a class="e-social-link" href="https://scholar.google.com/citations?user=7i308qgAAAAJ" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="https://orcid.org/0000-0001-5760-4102" target="_blank"><i class="fab fa-orcid" aria-hidden="true"></i><span>ORCID</span></a></li></ul></div></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><h2 class="page-title"></h2><article><meta charset="utf-8">
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>Welcome to EMRG</title><meta name="author" content="Yu Zhou"><link rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/css/fontawesome.all.min.css"><meta name="generator" content="Hexo 6.3.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/"></a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/"> Home</a></li><li class="menus_item"><a class="site-page" href="/projects.html"> Projects</a></li><li class="menus_item"><a class="site-page" href="/students.html"> Members</a></li><li class="memus_item"><a class="site-page" href="/zh-cn/students.html"> 简体中文</a></li></ul></div></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/assets/avatar.jpg" onerror="this.onerror=null;this.src='/img/profile.png'" alt="avatar"></div><div class="author-discrip"><h3>Yu Zhou</h3><p class="author-bio">Research Institute for Future Media Computing, Shenzhen University.</p></div><div class="author-links"><ul class="social-links"><li><a class="e-social-link" id="_email" href="" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span><script>document.getElementById('_email').href = atob('bWFpbHRvOnl1Lnpob3VAc3p1LmVkdS5jbg==')</script></a></li><li><a class="e-social-link" href="https://scholar.google.com/citations?user=7i308qgAAAAJ" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="https://orcid.org/0000-0001-5760-4102" target="_blank"><i class="fab fa-orcid" aria-hidden="true"></i><span>ORCID</span></a></li></ul></div></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><h2 class="page-title"></h2><article><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="./_css/style.css">
@@ -6,7 +6,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="./assets/_script/auto_numbering.js"></script>
 <script>
-// image crop 하는 스크립트
 function imageCrop() {
     var ratio = 0.5;
     var img = document.getElementsByClassName("activities-image");
@@ -44,6 +43,36 @@ footer {
     background-color: #337ab7;
     color: #ffffffbb;
 }
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  z-index: 2;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+.list-group-item.active2, .list-group-item.active2:focus, .list-group-item.active2:hover {
+  z-index: 2;
+  color: #fff;
+  background-color: #767e59;
+  border-color: #767e59;
+}
+
+
+
+
+
+tbody tr:nth-child(even) {
+      background-color: rgb(208, 221, 205);
+  }
+
 </style>
 </nav> <div class='container'>
     <div class="panel panel-default">
@@ -52,164 +81,164 @@ footer {
         </div>
         <div class="panel-body">Here is an introduction to the members of our research group</div>
     </div>
+
 <ul class="list-group">   
-    <li class="list-group-item active" background-color="red"><strong>Master Students 2020 ,Graduated</strong></li>
-    <li class="list-group-item">
-        <div class="table-responsive">
-            <tbody>
-              
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Yu Chen</strong><br>
-                  <small>
-                    <strong>Research Direction:Compression Sensing, Feature Selection</strong><br>
-                    <strong>Graduation destination:oppo, In ShenZhen</strong><br>
-                  </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Haowen Xia</strong><br>
-                  <small>
-                    <strong>Research Direction:Feature Selection, Density Clustering</strong><br>
-                    <strong>Graduation destination:State Grid Hubei Materials Company,In WuHan.</strong><br>
-                  </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Junnan Ma</strong><br>
-                  <small>
-                    <strong>Research Direction:Feature Selection</strong><br>
-                    <strong>Graduation destination:Huawei</strong><br>
-                    
-                  </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Zhuodi Yang</strong><br>
-                  <small>
-                    <strong>Research Direction:Feature Selection、Action Recognition,Compression Sensing</strong><br>
-                    <strong>Graduation destination:Inland Revenue Department (ShenZhen)</strong><br>
-                    
-                  </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Yan Qiu</strong><br>
-                  <small>
-                    <strong>Research Direction:Feature Selection</strong><br>
-                    <strong>Graduation destination:Huawei Cloud,In DongGuan</strong><br>
-                   
+
+  <li class="list-group-item active"><strong>Be Studying</strong></li>
+  <li class="list-group-item">
+      <div class="table-responsive">
+        <table class="table table-condensed">
+          <tbody>
+            <tr>
+              <td>
+                <font size="4" face="verdana">Chuanshi Xie   2021-</font><br>
+                <small>
+                  Research Direction: Action Recognition<br>
                 </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Ruiqi Wang</strong><br>
-                  <small>
-                    <strong>Research Direction:Feature Selection</strong><br>
-                    <strong>Graduation destination:</strong><br>
-                  </small>
-                </td>
-              </tr>
-              
-  
-            </tbody>
-          
-        </div>
-      </li>
-
-    <li class="list-group-item disabled"></li>
-
-    <li class="list-group-item active"><strong>Master Students 2021</strong></li>
-    <li class="list-group-item">
-        <div class="table-responsive">
-          
-            <tbody>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Chuanshi Xie</strong><br>
-                  <small>
-                    <strong>Research Direction: Action Recognition</strong><br>
-                    
-                  </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Wei Xie</strong><br>
-                  <small>
-                    <strong>Research Direction: Action Recognition、Compression Sensing</strong><br>
-                  </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Lin Gao</strong><br>
-                  <small>
-                    <strong>Research Direction:Multi-objective optimization</strong><br>
-                  </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Bosong Lin</strong><br>
-                  <small>
-                    <strong>Research Direction:Time-Series Prediction</strong><br>
+              </td>
+            </tr>
+            
+            <tr >
+              <td>
+                <font size="4" face="verdana">Wei Xie   2021-</font><br>
+                <small>
+                  Research Direction: Action Recognition,Compression Sensing<br>
                 </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>NanJian Yang</strong><br>
-                  <small>
-                    <strong>Research Direction：Multi-objective optimization，Evolutionary calculations</strong><br>
-                  </small>
-                </td>
-              </tr>
-            </tbody>
-          
-        </div>
-      </li>
+              </td>
+            </tr>
+            
+            <tr >
+              <td>
+                <font size="4" face="verdana">Lin Gao    2021-</font><br>
+                <small>
+                  Research Direction:Multi-objective optimization<br>
+                </small>
+              </td>
+            </tr>
+           
+            <tr >
+              <td>
+                <font size="4" face="verdana">Bosong Lin    2021-</font><br>
+                <small>
+                  Research Direction:Time-Series Prediction<br>
+              </small>
+              </td>
+            </tr>
+            
+            <tr >
+              <td>
+                <font size="4" face="verdana">Nanjian Yang   2021-</font><br>
+                <small>
+                  Research Direction:Multi-objective optimization:Evolutionary calculations<br>
+                </small>
+              </td>
+            </tr>
 
-      <li class="list-group-item disabled"></li>
+            <tr>
+              <td>
+                <font size="4" face="verdana">Jingtao Xie   2022-</font><br>
+                <small>
+                  Research Direction:Multi-modal Action Recognition<br>
+                </small>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <font size="4" face="verdana">Jiahui Wang   2022-</font><br>
+                <small>
+                  Research Direction:Multi-objective, multi-task optimization<br>
+                </small>
+              </td>
+            </tr>
 
-    <li class="list-group-item active"><strong>Master Students 2022</strong></li>
-    <li class="list-group-item">
-        <div class="table-responsive">
+          </tbody>
+        </table>
           
-            <tbody>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Jingtao Xie</strong><br>
-                  <small>
-                    <strong>Research Direction:Multi-modal Action Recognition</strong><br>
-                  </small>
-                </td>
-              </tr>
-              <br>
-              <tr class="auto-numbering-list">
-                <td>
-                  <strong>Jiahui Wang</strong><br>
-                  <small>
-                    <strong>Research Direction:Multi-objective, multi-task optimization</strong><br>
-                  </small>
-                </td>
-              </tr>
-            </tbody>
-          
-        </div>
-      </li>
+        
+      </div>
+  </li>
+
+  <li class="list-group-item disabled"></li>
+
+  <li class="list-group-item active2"><strong>Graduated</strong></li>
+  <li class="list-group-item ">
+      <div class="table-responsive">
+        <table class="table table-condensed">
+          <tbody>
+            <tr >
+              <td>
+                <font size="4" face="verdana">Yu Chen 2020-2023</font><br>
+                <small>
+                  Research Direction:Compression Sensing, Feature Selection<br>
+                  Graduation destination:oppo, In ShenZhen<br>
+                </small>
+              </td>
+            </tr>
+            
+            <tr >
+              <td>
+                <font size="4" face="verdana">Haowen Xia 2020-2023</font><br>
+                <small>
+                  Research Direction:Feature Selection, Density Clustering<br>
+                  Graduation destination:State Grid Hubei Materials Company,In WuHan.<br>
+                </small>
+              </td>
+            </tr>
+            
+            <tr >
+              <td>
+                <font size="4" face="verdana">Junnan Ma 2020-2023</font><br>
+                <small>
+                  Research Direction:Feature Selection<br>
+                  Graduation destination:Huawei<br>
+                  
+                </small>
+              </td>
+            </tr>
+            
+            <tr >
+              <td>
+                <font size="4" face="verdana">Zhuodi Yang 2020-2023</font><br>
+                <small>
+                  Research Direction:Feature Selection,Action Recognition,Compression Sensing<br>
+                  Graduation destination:Inland Revenue Department (ShenZhen)<br>
+                  
+                </small>
+              </td>
+            </tr>
+            
+            <tr >
+              <td>
+                <font size="4" face="verdana">Yan Qiu 2020-2023</font> <br>
+                <small>
+                  Research Direction:Feature Selection<br>
+                  Graduation destination:Huawei Cloud,In DongGuan<br>
+                  
+              </small>
+              </td>
+            </tr>
+            
+            <tr >
+              <td>
+                <font size="4" face="verdana">Ruiqi Wang 2020-2023</font><br>
+                <small>
+                  Research Direction:Feature Selection<br>
+                  Graduation destination:Guangzhou Entry-Exit Border Guard Station<br>
+                </small>
+              </td>
+            </tr>
+            
+
+          </tbody>
+        </table>
+        
+      </div>
+  </li>
+
+    
+
+
+
+
 </ul></article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/"> Home</a></li><li class="nav_item"><a class="nav-page" href="/projects.html"> Projects</a></li><li class="nav_item"><a class="nav-page" href="/students.html"> Students</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2023 by Yu Zhou</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="/js/jquery.min.js"></script><script src="/js/main.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></body></html>
