@@ -1,12 +1,4 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>欢迎来到进化多媒体课题组网页</title><meta name="author" content="周宇"><link rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/css/fontawesome.all.min.css"><meta name="generator" content="Hexo 6.3.0"></head><body><header id="page_header"><div class="header_wrap"><div id="blog_name"><a class="blog_title" id="site-name" href="/zh-cn/"></a></div><button class="menus_icon"><div class="navicon"></div></button><ul class="menus_items"><li class="menus_item"><a class="site-page" href="/zh-cn/"> 首页</a></li><li class="menus_item"><a class="site-page" href="/zh-cn/projects.html"> 项目介绍</a></li><li class="menus_item"><a class="site-page" href="/zh-cn/students.html"> 课题组成员</a></li><li class="memus_item"><a class="site-page" href="/archives/index.html" onclick="localStorage.setItem(&quot;language&quot;, &quot;en&quot;)"> English</a></li></ul></div><script>var languagesUrlMap = {"zh-cn": "/zh-cn/archives/index.html","en": "/archives/index.html",}</script><script>let userLang = localStorage.getItem('language');
-if (!userLang) {
-    const navigatorLang = navigator.language || navigator.userLanguage;
-    userLang = navigatorLang.substr(0, 2) === "zh" ? "zh-cn" : "en";
-}
-const currentLang = location.href.includes("zh-cn") ? "zh-cn" : "en";
-if (userLang !== currentLang) {
-    location.href = languagesUrlMap[userLang];
-}</script></header><div class="page_index" itemscope itemtype="http://schema.org/CreativeWork"><article id="main_content"><div>
+<div>
     <div class="lab-back-header">
       <div class="lab-back-header lab-back-header-blur"></div>
       <div class="darker-lab-back" style="width:100%;background-image: url(../assets/szu.png);background-size:cover;opacity: 0.3;"></div>
@@ -26,11 +18,11 @@ if (userLang !== currentLang) {
                         <p class="lab-description" style="color: rgba(37, 37, 37, 1);display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;"> 深圳大学</p>
                     <div class="lab-menu-uni-title">
                       <div class="text"> 	            
-                            <a class="lab-menu-uni-link" target="_blank" rel="noopener" href="https://csse.szu.edu.cn/" style="color: rgba(37, 37, 37, 1);">
+                            <a class="lab-menu-uni-link" href="https://csse.szu.edu.cn/" style="color: rgba(37, 37, 37, 1);">
                               计算机与软件工程学院
                             </a>
                             /
-                            <a class="lab-menu-uni-link" target="_blank" rel="noopener" href="https://futuremedia.szu.edu.cn/" style="color: rgba(37, 37, 37, 1);">
+                            <a class="lab-menu-uni-link" href="https://futuremedia.szu.edu.cn/" style="color: rgba(37, 37, 37, 1);">
                               未来媒体计算研究所
                             </a>
                         </div>	
@@ -92,7 +84,7 @@ if (userLang !== currentLang) {
           <div style="padding:20px">
             <div class="new-item"> 
               <div style="font-size:15px;flex:1;">  
-                  <a  target="_blank" rel="noopener" href="https://csse.szu.edu.cn/pages/user/index?id=760">2024 级计划招收 3-4 名学生。</a>
+                  <a  href="https://csse.szu.edu.cn/pages/user/index?id=760">2024 级计划招收 3-4 名学生。</a>
               </div>
               <div style="font-size:15px;flex: 0 0 160px;">  
                   2023/11/9
@@ -160,4 +152,3 @@ if (userLang !== currentLang) {
 
 
 
-</article></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2023 by Yu Zhou</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="/js/jquery.min.js"></script><script src="/js/main.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></body></html>
