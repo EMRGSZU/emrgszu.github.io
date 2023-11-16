@@ -6,158 +6,130 @@ if (!userLang) {
 const currentLang = location.href.includes("zh-cn") ? "zh-cn" : "en";
 if (userLang !== currentLang) {
     location.href = languagesUrlMap[userLang];
-}</script></header><div class="page_index" itemscope itemtype="http://schema.org/CreativeWork"><article id="main_content"><div>
-    <div class="lab-back-header">
-      <div class="lab-back-header lab-back-header-blur"></div>
-      <div class="darker-lab-back" style="width:100%;background-image: url(./assets/szu.png);background-size:cover;opacity: 0.3;"></div>
-      <div class="lab-home-title" style="align-items:center;justify-content: space-bewteen;">
-      <div style="display:flex; justify-content: flex-start;">
-          <div class="row">
-                <div class="col-md-12">
-                  <div class="lab-home-logo">                     
-                          <a href="/lu-lab-protein-desig"><img class="lab-logo" src="https://www.labxing.com/images/university/200x0/102-1527154293-g2wVR8HL.png"></a>
-                      </div>
-              </div>
-          </div>
-            <div class="row">
-                  <div class="col-md-12">
-                      <div class="main-lab-titles" style="color: rgba(37, 37, 37, 1);">
-                        <h2 class="lab-page-title">Evolution Multimedia Research Group</h2>
-                        <p class="lab-description" style="color: rgba(37, 37, 37, 1);display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;"> Shenzhen University</p>
-                    <div class="lab-menu-uni-title">
-                      <div class="text"> 	            
-                            <a class="lab-menu-uni-link" target="_blank" rel="noopener" href="https://csse.szu.edu.cn/" style="color: rgba(37, 37, 37, 1);">
-                              College of Computer and Software Engineering
-                            </a>
-                            /
-                            <a class="lab-menu-uni-link" target="_blank" rel="noopener" href="https://futuremedia.szu.edu.cn/" style="color: rgba(37, 37, 37, 1);">
-                              Research institute for Future Media Computing
-                            </a>
-                        </div>	
-                          </div>
-                  </div>
-                  </div>
-            </div>
-      </div> 
-    </div>
-</div>
+}</script></header><main id="page_main"><div class="side-card sticky"><div class="card-wrap" itemscope itemtype="http://schema.org/Person"><div class="author-avatar"><img class="avatar-img" src="/assets/avatar.jpg" onerror="this.onerror=null;this.src='/img/profile.png'" alt="avatar"></div><div class="author-discrip"><h3><a href="/zhouyu.html">Yu Zhou</a></h3><p class="author-bio">Research Institute for Future Media Computing, Shenzhen University.</p></div><div class="author-links"><ul class="social-links"><li><a class="e-social-link" id="_email" href="" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span><script>document.getElementById('_email').href = atob('bWFpbHRvOnl1Lnpob3VAc3p1LmVkdS5jbg==')</script></a></li><li><a class="e-social-link" href="https://scholar.google.com/citations?user=7i308qgAAAAJ" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="https://orcid.org/my-orcid?orcid=0000-0002-3224-0063" target="_blank"><i class="fab fa-orcid" aria-hidden="true"></i><span>ORCID</span></a></li></ul></div></div></div><div class="page" itemscope itemtype="http://schema.org/CreativeWork"><article id="main_content">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+  /* photos */
+  .activities-image {
+      width: 100%;
+  }
+
+  .p-r-5 {
+      padding-left: 0px;
+      padding-right: 5px;
+  }
+
+  .p-l-5 {
+      padding-left: 5px;
+      padding-right: 0px;
+  }
+
+  /* footer */
+  footer {
+      clear: both;
+      margin: 0px;
+      padding: 1em 0px 1em;
+      text-align: left;
+      background-color: #337ab7;
+      color: #ffffffbb;
+  }
+</style>
 
 <div>
-  <div class="lab-home-container" style="background-color: rgba(255,255,255,1)">
-    <div class="row">
-      <div class="left">
+
+<div class="container">
+
+      <div class="lab-back-header">
+        <div class="lab-back-header lab-back-header-blur"></div>
+        <div class="darker-lab-back" style="width:100%;background-image: url(./assets/szu.png);background-size:cover;opacity: 0.3;"></div>
+        <div class="lab-home-title" style="align-items:center;justify-content: space-bewteen;">
+          <div style="display:flex; justify-content: flex-start;">
+              <div class="row">
+                    <div class="col-md-12">
+                      <div class="lab-home-logo">                     
+                              <a href="/lu-lab-protein-desig"><img class="lab-logo" src="https://www.labxing.com/images/university/200x0/102-1527154293-g2wVR8HL.png"></a>
+                      </div>
+                    </div>
+              </div>
+                <div class="row">
+                      <div class="col-md-12">
+                          <div class="main-lab-titles" style="color: rgba(37, 37, 37, 1);">
+                            <h2 class="lab-page-title" style="font-size:22px;" >Evolution Multimedia Research Group</h2>
+                            <div class="lab-menu-uni-title">
+                              <div class="text"> 	            
+                                    <a class="lab-menu-uni-link" target="_blank" rel="noopener" href="https://csse.szu.edu.cn/" style="color: rgba(37, 37, 37, 1); font-size:15px;" >
+                                      College of Computer Science and Software Engineering
+                                    </a>
+                                    /
+                                    <a class="lab-menu-uni-link" target="_blank" rel="noopener" href="https://futuremedia.szu.edu.cn/" style="color: rgba(37, 37, 37, 1); font-size:15px;" >
+                                      Research institute for Future Media Computing
+                                    </a>
+                              </div>	
+                            </div>
+                          </div>
+                      </div>
+                </div>
+          </div> 
+        </div>
+      </div>
+
+
+
+      <div class="lab-home-container" style="background-color: rgba(255,255,255,1)">
         <div class="block">
           <div class="block_title">
-            <div class="left_title"> Research Direction Introduction </div>
-            <div class="right-arrow" >  <a href="./projects.html">More</a> </div>
+            <div class="left_title"> Introduction </div>
           </div>
 
           <div style="padding: 10px;"> 
-            1) <b>Evolutionary Machine Learning</b>, a subset of AI, integrates evolutionary algorithms and machine learning. It mimics natural evolution by iteratively evolving potential solutions through processes like selection, crossover, and mutation. This method effectively addresses complex optimization and learning challenges, with applications in data mining, robotics, and optimization.
-            
-            
+           We are the Evolutionary Multimedia Research Group. The group contains one faculty member and 8 graduate students. We focus on evolutionary computation and machine learning, and multimedia action information processing.
           </div>
 
-          <div style="padding: 10px;">
-            2) <b>Action recognition</b> in computer vision aims to categorize human actions from video data. It uses algorithms to automatically classify activities, like walking or sports movements. Applications include surveillance, human-computer interaction, sports analysis, and activity monitoring. Analyzing motion patterns and time-based data in videos, these algorithms offer insights into human behavior for intelligent video analysis across domains.
-          </div>
-
-          <div style="padding: 10px;">
-              3) <b>Compressed Sensing</b> is a signal processing technique that efficiently compresses and reconstructs signals by leveraging sparsity. It relies on the idea that real-world signals often have only a few crucial coefficients. With a small set of measurements, it accurately restores the original signal, finding applications in image and video compression, medical imaging, and wireless communication, streamlining data handling and transfer.
-          </div>
+         
         </div>
-      
-      </div>
+
         
-      <div class="right">
-      
-        <div class="side-card sticky" stylt="margin: 0 auto;">
-          <div class="card-wrap" itemscope="" itemtype="http://schema.org/Person">
-            <div class="author-avatar"><img class="avatar-img" src="/assets/avatar.jpg" onerror="this.onerror=null;this.src='/img/profile.png'" alt="avatar"></div>
-            <div class="author-discrip"><h3><a href="/zhouyu.html">Yu Zhou</a></h3><p class="author-bio">Research Institute for Future Media Computing, Shenzhen University.</p></div>
-            <div class="author-links is-close"><ul class="social-links"><li><a class="e-social-link" id="_email" href="mailto:yu.zhou@szu.edu.cn" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span><script>document.getElementById('_email').href = atob('bWFpbHRvOnl1Lnpob3VAc3p1LmVkdS5jbg==')</script></a></li><li><a class="e-social-link" href="https://scholar.google.com/citations?user=7i308qgAAAAJ" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Google Scholar</span></a></li><li><a class="e-social-link" href="https://orcid.org/0000-0001-5760-4102" target="_blank"><i class="fab fa-orcid" aria-hidden="true"></i><span>ORCID</span></a></li></ul>
+        <div class="block">
+            <div class="block_title">
+              <div class="left_title"> News </div>
             </div>
-          </div>
-        </div>
-      
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="block">
-          <div class="block_title">
-            <div class="left_title"> Research News </div>
-          </div>
-          <div style="padding:20px">
-            <div class="new-item"> 
-              <div style="font-size:15px;flex:1;">  
-                  <a  target="_blank" rel="noopener" href="https://csse.szu.edu.cn/pages/user/index?id=760">Class of 2024 plans to enroll 3-4 students.</a>
-              </div>
-              <div style="font-size:15px;flex: 0 0 160px;">  
-                  2023/11/9
-              </div>
-            </div>
-
-            <div class="new-item"> 
-              <div style="font-size:15px;flex:1;">  
-                  Congratulations to Lin Gao IEEE TIM Accepted Papers
-              </div>
-              <div style="font-size:15px;flex: 0 0 160px;">  
-                  2023/9/2
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-
-    <div class="row">
-      <div class="block">
-        <div class="block_title">
-          <div class="left_title"> Recent publications </div>
-        </div>
-
-        <div style="padding: 20px;"> 
-          <div class="new-item">
-              <div style="font-size:15px;flex:1;"> 
-                <a href="./XieChuanShi/self-supervision.html">A Self-Supervised Human Activity Recognition Approach via Body Sensor Networks in Smart City.<a>
+            <div style="padding:20px">
+              <div class="new-item"> 
+                <div style="font-size:15px;flex:1;">  
+                    <a  target="_blank" rel="noopener" href="https://csse.szu.edu.cn/pages/user/index?id=760">Class of 2024 plans to enroll 3-4 students.</a>
+                </div>
+                <div style="font-size:15px;flex: 0 0 160px;">  
+                    2023/11/9
+                </div>
               </div>
 
-              <div style="font-size:15px;flex: 0 0 160px;">2023/6/8</div>
-            </div>
-        </div>
-
-        <div style="padding: 20px;"> 
-          <div class="new-item">
-              <div style="font-size:15px;flex:1;"> 
-                <a href="./MaJunNan/Feature.html">Feature library-assisted surrogate model for evolutionary wrapper-based feature selection and classification<a>
+              <div class="new-item"> 
+                <div style="font-size:15px;flex:1;">  
+                    Congratulations to Lin Gao IEEE TIM Accepted Papers
+                </div>
+                <div style="font-size:15px;flex: 0 0 160px;">  
+                    2023/9/2
+                </div>
               </div>
-
-              <div style="font-size:15px;flex: 0 0 160px;">2023/3/19</div>
             </div>
         </div>
         
-        <div style="padding: 20px;"> 
-          <div class="new-item">
-              <div style="font-size:15px;flex:1;"> 
-                <a href="./QiuYan/Region.html">Region Purity-based Local Feature Selection: A Multi-Objective Perspective<a>
-              </div>
 
-              <div style="font-size:15px;flex: 0 0 160px;">2022/11/16</div>
-            </div>
-        </div>
+        
 
-
+        
       </div>
-    </div>
 
-  </div>
+</div>
 
-
-
-<div>
+</div>
 
 
 
 
-</article></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2023 by Yu Zhou</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="/js/jquery.min.js"></script><script src="/js/main.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></body></html>
+</article></div></main><div class="nav-wrap"><div class="nav"><button class="site-nav"><div class="navicon"></div></button><ul class="nav_items"><li class="nav_item"><a class="nav-page" href="/"> Home</a></li><li class="nav_item"><a class="nav-page" href="/projects.html"> Projects</a></li><li class="nav_item"><a class="nav-page" href="/students.html"> Students</a></li></ul></div><div class="cd-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></div></div><footer id="page_footer"><div class="footer_wrap"><div class="copyright">&copy;2020 - 2023 by Yu Zhou</div><div class="theme-info">Powered by <a target="_blank" href="https://hexo.io" rel="nofollow noopener">Hexo</a> & <a target="_blank" href="https://github.com/PhosphorW/hexo-theme-academia" rel="nofollow noopener">Academia Theme</a></div></div></footer><script src="/js/jquery.min.js"></script><script src="/js/main.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></body></html>

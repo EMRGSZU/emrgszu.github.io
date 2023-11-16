@@ -1091,7 +1091,7 @@ blockquote p {
 .darker-lab-back,
 .lab-back-header,
 .lab-back-header-blur {
-  width: 82.5%;
+  width: 100%;
   height: 250px;
   margin: auto;
 }
@@ -1186,7 +1186,7 @@ blockquote p {
   float: left;
 }
 .lab-home-container {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .left {
