@@ -4,10 +4,6 @@ Here is an introduction to the members of our research group, including current 
 
 <div style="background-color:rgb(103, 139, 196); color: white; padding: 10px; border-radius: 5px;">&emsp;Currently Enrolled Graduate Students</div>
 
-- **Jingtao Xie (since 2022)**  
-
-  &emsp;**Research Topic**: Multimodal Action Recognition
-
 - **Jiahui Wang (since 2022)**  
 
   &emsp;**Research Topic**: Multi-objective and Multi-task Optimization
@@ -41,11 +37,41 @@ Here is an introduction to the members of our research group, including current 
 
   &emsp;**Research Topic**: Evolutionary Algorithm Design with Large Language Model Assistance
 
+- **Zicheng Wu (since 2025)**  
+
+  &emsp;**Research Topic**: Compressed Sensing
+
+- **Jingbin Li (since 2025)**  
+
+  &emsp;**Research Topic**: Multimodal Action Recognition
+
+- **Deqi Liu (since 2025)**  
+
+  &emsp;**Research Topic**: Meta Learning, Local Feature Selection
+
+- **Yang Luo (since 2025)**  
+
+  &emsp;**Research Topic**: Multimodal Action Recognition
+
+- **Yifan Zhong (since 2025)**  
+
+  &emsp;**Research Topic**: Few-shot Action Recognition
+
+- **Zefeng Lin (since 2025)**  
+
+  &emsp;**Research Topic**: Evolutionary Computation, Feature Selection
 
 
 ## 🎓 Graduated Master's Students
 
 <div style="background-color: rgb(83, 163, 103); color: white; padding: 10px; border-radius: 5px;">&emsp;Graduated Graduate Students</div>
+
+
+* **Jingtao Xie (2022-2025)**
+
+   **Research Interests**: Multimodal Action Recognition
+   
+   **Employment**: Pinduoduo Shanghai
 
 * **Chuanshi Xie (2021–2024)**
 
