@@ -1,1 +1,1 @@
-🔗 Visit Yu Zhou group website: [homepage](https://lyufeiyu.github.io/emrgszu/)
+🔗 Visit Yu Zhou group website: [homepage](https://emrgszu.github.io/)
