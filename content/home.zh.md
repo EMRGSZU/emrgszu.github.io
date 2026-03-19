@@ -28,8 +28,8 @@
 
 <div class="news-container">
   <div class="news-item">
-    <span class="news-text">2026级计划招收 3-4 名学生。</span>
-    <span class="news-date">2025年10月1日</span>
+    <span class="news-text">2026级计划招收 2-3 名学生。</span>
+    <span class="news-date">2026年3月19日</span>
   </div>
   <div class="news-item">
     <span class="news-text">2025级计划招收 3-4 名学生。</span>

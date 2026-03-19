@@ -33,9 +33,9 @@ Here is an introduction to the members of our research group, including current 
   &emsp;**Research Direction**: Combinatorial Optimization Based on Neural Networks
 
 
-- **Guanghua Lv (since 2024)**  
+- **Guanghua Lyu (since 2024)**  
 
-  &emsp;**Research Topic**: Evolutionary Algorithm Design with Large Language Model Assistance
+  &emsp;**Research Topic**: Evolutionary Algorithm Design with Large Language Model Assistance, Agent
 
 - **Zicheng Wu (since 2025)**  
 

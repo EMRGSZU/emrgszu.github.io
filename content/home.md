@@ -29,8 +29,8 @@ We warmly welcome students **who are curious, self-driven, and passionate about 
 
 <div class="news-container">
   <div class="news-item">
-    <span class="news-text">The 2026 cohort plans to enroll 3-4 students.</span>
-    <span class="news-date">October 1, 2025</span>
+    <span class="news-text">The 2026 cohort plans to enroll 2-3 students.</span>
+    <span class="news-date">March 19, 2026</span>
   </div>
   <div class="news-item">
     <span class="news-text">The 2025 cohort plans to enroll 3-4 students.</span>
